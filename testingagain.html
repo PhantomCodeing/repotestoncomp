@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Reset</title>
+    <style>
+        body {
+            background-image: url('C:\Users\mahdi\OneDrive - Aston University\learn php\Default_Unlock_the_forgotten_password_for_your_website_with_a_0.jpg'); /* Specify the path to your image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            font-family: Arial, sans-serif; /* Specify the font family */
+            color: #333; /* Specify the text color */
+        }
+        .container {
+            max-width: 800px; /* Set maximum width for content */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 20px; /* Add some padding */
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color for better readability */
+            border-radius: 10px; /* Add rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <h2>Password Reset</h2>
+    <form method="post" action="reset_password.php">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Reset Password">
+    </form>
+</body>
+</html>
